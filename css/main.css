@@ -84,7 +84,7 @@ a {
 .header__content__form button {
     background: var(--btnColor);
     border: none;
-    padding: 15px 61px;
+    padding: 17px 61px;
     border-radius: 7px;
     color: var(--white);
     font-family: var(--releway-bold);
@@ -92,6 +92,17 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.errorText {
+    display: none;
+    color: #EF4877;
+    font-family: var(--opensans-regular);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
 }
 
 /* HEADER END */
@@ -313,12 +324,12 @@ a {
     line-height: normal;
 }
 
-.footer__icon{
+.footer__icon {
     display: flex;
     column-gap: 12px;
 }
 
-.footer__icon a{
+.footer__icon a {
     text-align: center;
     padding: 5px;
     width: 31.224px;
@@ -327,4 +338,5 @@ a {
     border: 1px solid var(--white);
     border-radius: 50%;
 }
+
 /* FOOTER END */
